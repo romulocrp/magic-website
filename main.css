@@ -1,0 +1,44 @@
+body {
+    background-color: #003366;
+    color: #ff8400;
+}
+
+textarea {
+    background-color: #00549e;
+    color: #ffbf00
+}  
+
+.header {
+    text-align: center;
+}
+
+.deck-switcher {
+   /* width: 350px;*/
+/*    height: auto;*/
+    text-align: center;
+   /* display: inline-block;*/
+   
+}
+
+.input1 {
+    width: 350px;
+    height: auto;
+    text-align: center;
+    display: inline-block;
+}
+
+.input2 {
+    width: 350px;
+    height: auto;
+    text-align: center;
+    display: inline-block;
+   
+}
+
+.result {
+    width: 250px;
+    height: auto;
+    text-align: center;
+    display: inline-block;
+   /* padding-bottom: 50%;*/
+}

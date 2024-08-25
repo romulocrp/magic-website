@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8" />
+
+  <title>Articulador de decks</title>
+
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+  <meta name="description" content="" />
+
+  <link rel="icon" href="favicon.png">
+
+  <link rel="stylesheet" href="main.css">
+
+</head>
+
+<body>
+
+  <div class="header">
+  <h1>Bem vindo ao Articulador de decks!</h1>
+  <p>Aqui é onde você sabe como sair de uma lista de deck para outra!</p>
+  <p><i>Fucionando apenas com magic por enquanto.</i></p>
+  </div>
+
+  <div class="deck-switcher">
+  <div class="input1">
+  <form>
+    <label for="deck-input1">Insira a primeira lista</label><br>
+    <textarea  id="deck-input1" rows=30 cols=40></textarea>
+    <br><br>
+
+    
+  </form>
+  </div>
+
+  <div class="result">
+    <button onclick="printResult()">Switch!</button>
+
+    <p id="result-1-2" ></p>
+    
+    <p id="result-2-1"></p>
+  </div>  
+
+  <div class="input2">
+  <form>
+    <label for="deck-input2">Insira a segunda lista</label><br>
+    <textarea  id="deck-input2" rows=30 cols=40></textarea>
+    <br><br>
+
+    
+  </form>
+  </div>
+  </div>
+
+
+<script type="text/javascript" src="index.js">
+  
+</script>
+</body>
+
+</html>
