@@ -6,19 +6,15 @@ body {
 textarea {
     background-color: #00549e;
     color: #ffbf00
-}  
+} 
 
 .header {
     text-align: center;
 }
 
 .deck-switcher {
-   /* width: 350px;*/
-/*    height: auto;*/
     text-align: center;
-   /* display: inline-block;*/
-   
-}
+}    
 
 .input1 {
     width: 350px;
@@ -32,13 +28,13 @@ textarea {
     height: auto;
     text-align: center;
     display: inline-block;
-   
-}
+}    
 
 .result {
+    /*position: absolute;*/
     width: 250px;
     height: auto;
     text-align: center;
     display: inline-block;
-   /* padding-bottom: 50%;*/
-}
+    top: -400px;
+}    
